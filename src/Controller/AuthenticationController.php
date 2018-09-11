@@ -11,7 +11,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Response;
 
-class AuthenticationController extends AbstractController
+class AuthenticationController extends AbstractAPIController
 {
     /**
      * Gives authentication to the user for testing purposes (temporary).
